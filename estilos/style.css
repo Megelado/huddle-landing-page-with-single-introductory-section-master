@@ -17,12 +17,13 @@ html, body {
     background-image: url('../images/bg-mobile.svg');
     background-repeat: no-repeat;
     background-size: contain;
+    overflow-x: hidden;
 }
 
 .card {
     width: 300px;
-    height: 700px;
-    margin: 0px auto;
+    height: 1000px;
+    margin: auto;
     color: white;
     display: flex;
     flex-direction: column;
