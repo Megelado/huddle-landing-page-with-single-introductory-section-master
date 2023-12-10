@@ -42,6 +42,12 @@ html, body {
     height: 180px;
 }
 
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 h2 {
     font-family: 'Poppins', sans-serif;
 }
@@ -73,9 +79,18 @@ button:active {
     background-color: hsl(300, 69%, 71%);
 }
 
-.redes-sociais {
-    border-radius: 50%;
-    width: 30px;
+.social {
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+        list-style-type: none;
+    }
+
+#rede-social {
+    border-radius: 100%;
+    width: 20px;
+    text-align: center;
+    padding: 2px;
     border: 1px solid white;
     margin-right: 5px;
 }

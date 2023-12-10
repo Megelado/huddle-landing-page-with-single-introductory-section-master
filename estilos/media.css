@@ -28,12 +28,18 @@
         text-align: left;
     }
 
-    .social {
-        text-align: right;
-    }
-
     .conteudo {
         margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
+
+    .redes {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
 
 }
