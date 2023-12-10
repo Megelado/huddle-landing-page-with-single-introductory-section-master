@@ -22,7 +22,7 @@ html, body {
 .card {
     width: 300px;
     height: 700px;
-    margin: auto;
+    margin: 0px auto;
     color: white;
     display: flex;
     flex-direction: column;
@@ -75,4 +75,6 @@ button:active {
 .redes-sociais {
     border-radius: 50%;
     width: 30px;
+    border: 1px solid white;
+    margin-right: 5px;
 }
